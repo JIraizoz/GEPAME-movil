@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Owncloud\\UNI\\17-18\\TFG\\4_Codigo\\GEPAME-Movil\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Jesus\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f037386db60fbdfe6094a67cb1785237\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Jesus\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\599e3aceae35382e5586787a91f0e7a9\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

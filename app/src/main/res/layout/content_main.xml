@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_inicio"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="es.jiraizoz.gepame.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="es.jiraizoz.gepame.MainActivity"-->
+    <!--tools:showIn="@layout/app_bar_main">-->
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_main_mapa"
+                style="@android:style/Widget.Button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:paddingTop="5dp"
+                android:text="Mapa" />
+
+            <Button
+                android:id="@+id/btn_main_incidencias"
+                style="@android:style/Widget.Button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:paddingTop="5dp"
+                android:text="Incidencias" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_vehicle"
+                style="@android:style/Widget.Button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:paddingTop="5dp"
+                android:text="Vehiculo" />
+
+            <Button
+                style="@android:style/Widget.Button"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="5dp"
+                android:paddingTop="5dp"
+                android:id="@+id/btn_main_incidenciass"
+                android:text="Incidencias" />
+        </TableRow>
+
+
+    </TableLayout>
+
+<!--</android.support.constraint.ConstraintLayout>-->

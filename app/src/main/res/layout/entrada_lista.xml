@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="#FFF54F">
+
+    </android.support.constraint.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/tw_entrada_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="TextView"
+            android:textAlignment="viewEnd"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tw_entrada_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="TextView"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tw_entrada_descripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/tw_entrada_id"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:typeface="normal" />
+    </RelativeLayout>
+
+</LinearLayout>
